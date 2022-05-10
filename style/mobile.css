@@ -1,0 +1,44 @@
+/* navbar */
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+    position: static;
+}
+#navbar .logo {
+    margin-bottom: 1rem;
+}
+/* utility classes */
+.l-heading{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.lead {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+/* Informaion */
+#Information .Information-contant{
+    display: block;
+    text-align: center;
+}
+
+#Information .Information-contant img{
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+/* plyers */
+#plyers .plyers-boxes{
+    display: block;
+} 
+
+@media(max-width: 500px){
+    #navbar ul {
+        display: block;
+        text-align: center ;
+    }
+    #navbar ul li {
+        padding: 1rem;
+    }
+}
